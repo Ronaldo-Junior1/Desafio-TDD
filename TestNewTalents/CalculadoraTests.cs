@@ -6,9 +6,11 @@ namespace TestNewTalents
     {
         private Calculadora _calc;
 
+        
         public CalculadoraTests() 
         {
-            _calc = new Calculadora();
+            string data = "29/05/2024";
+            _calc = new Calculadora(data);         
         }   
 
         [Theory]
